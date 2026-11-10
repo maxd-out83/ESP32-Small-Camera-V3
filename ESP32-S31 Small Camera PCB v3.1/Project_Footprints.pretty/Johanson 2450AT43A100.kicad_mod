@@ -1,0 +1,172 @@
+(footprint "Johanson 2450AT43A100"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "AE1"
+		(at 0.38 2.13 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f92ed5a7-e887-43b6-9548-8e847e492f54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Johanson 2450AT43A100"
+		(at 0.02 -4.01 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a7df9a16-fcdc-4ccf-8c6a-ed8ad82c17aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb6a3091-ba60-4ae5-89e4-04b0fd752cca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Dipole antenna"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "583bf295-d2be-4f77-824e-09c02c0cbf16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2917720"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e67447bd-65fa-4952-bf32-83fb54de134b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "ESP32-S3 Small Camera.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.53 1.09)
+		(end -3.12 1.09)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6300b332-51d4-45c1-8f33-da9232fce4a6")
+	)
+	(fp_line
+		(start -3.52 0.66)
+		(end -3.53 1.09)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2d02e633-5391-43d0-8ebc-014706b0352f")
+	)
+	(fp_line
+		(start 3.07 -0.92)
+		(end 3.48 -0.92)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "26223fee-6e9c-4b23-97fe-824ee1df2e56")
+	)
+	(fp_line
+		(start 3.48 -0.88)
+		(end 3.48 -0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b267923c-b0fb-423a-b729-0fd84c311e56")
+	)
+	(fp_rect
+		(start -2.805 0.065)
+		(end -1.145 0.66)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7e670817-9354-4131-9e2e-a8c1eb6b0a77")
+	)
+	(fp_rect
+		(start -3.52 -0.92)
+		(end 3.48 1.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "a1af8d6c-f15f-4a67-a603-1e613512ff2f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.02 -2.51 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a9737e62-3dc5-40b4-a323-3ef3a053ae0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.52 0.08)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4a9bfffb-4478-43f4-8038-7b92a09aca7f")
+	)
+	(pad "2" smd rect
+		(at 3.46 0.08)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "9459e164-cd92-4bc2-a826-73e85b4ad6c2")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/binta/OneDrive/Documents/KiCad/9.0/Johanson 2450AT43A100/2450AT43A100E--3DModel-STEP-1.STEP"
+		(offset
+			(xyz 0 -0.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
